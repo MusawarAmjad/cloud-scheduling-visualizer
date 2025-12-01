@@ -42,7 +42,23 @@ An interactive web application for visualizing and comparing task scheduling alg
 
 ## 🚀 Quick Start
 
+## 📸 Screenshots
 
+### Main Interface
+![Main Interface](images/interface.png)
+*Interactive dashboard with algorithm controls and resource sliders*
+
+### Results Comparison
+![Results Dashboard](images/results.png)
+*Side-by-side comparison of EDF, DP, and SJF algorithms*
+
+### Timeline Visualization
+![Timeline View](images/timeline.png)
+*Real-time scheduling timeline showing task execution*
+
+### Resource Utilization
+![Resource Charts](images/charts.png)
+*CPU and RAM utilization graphs for each algorithm*
 
 ### Local Installation
 ```bash
