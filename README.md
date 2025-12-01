@@ -56,9 +56,7 @@ An interactive web application for visualizing and comparing task scheduling alg
 ![Timeline View](screenshots/timeline.png)
 *Real-time scheduling timeline showing task execution*
 
-### Resource Utilization
-![Resource Charts](screenshots/charts.png)
-*CPU and RAM utilization graphs for each algorithm*
+
 
 ### Local Installation
 ```bash
