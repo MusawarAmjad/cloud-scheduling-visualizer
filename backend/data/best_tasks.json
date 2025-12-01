@@ -1,0 +1,640 @@
+[
+    {
+        "task_id": "best_task_1",
+        "arrival_time": 1,
+        "cpu_cores": 2,
+        "ram_gb": 3,
+        "execution_time": 4,
+        "deadline": 33,
+        "priority": 9,
+        "profit": 147,
+        "dependencies": []
+    },
+    {
+        "task_id": "best_task_2",
+        "arrival_time": 3,
+        "cpu_cores": 2,
+        "ram_gb": 1,
+        "execution_time": 3,
+        "deadline": 39,
+        "priority": 10,
+        "profit": 100,
+        "dependencies": [
+            "best_task_1"
+        ]
+    },
+    {
+        "task_id": "best_task_3",
+        "arrival_time": 5,
+        "cpu_cores": 1,
+        "ram_gb": 3,
+        "execution_time": 4,
+        "deadline": 33,
+        "priority": 9,
+        "profit": 102,
+        "dependencies": [
+            "best_task_1"
+        ]
+    },
+    {
+        "task_id": "best_task_4",
+        "arrival_time": 3,
+        "cpu_cores": 2,
+        "ram_gb": 4,
+        "execution_time": 4,
+        "deadline": 32,
+        "priority": 9,
+        "profit": 82,
+        "dependencies": [
+            "best_task_2",
+            "best_task_3"
+        ]
+    },
+    {
+        "task_id": "best_task_5",
+        "arrival_time": 8,
+        "cpu_cores": 3,
+        "ram_gb": 1,
+        "execution_time": 3,
+        "deadline": 21,
+        "priority": 7,
+        "profit": 149,
+        "dependencies": []
+    },
+    {
+        "task_id": "best_task_6",
+        "arrival_time": 6,
+        "cpu_cores": 2,
+        "ram_gb": 1,
+        "execution_time": 3,
+        "deadline": 32,
+        "priority": 8,
+        "profit": 137,
+        "dependencies": [
+            "best_task_5"
+        ]
+    },
+    {
+        "task_id": "best_task_7",
+        "arrival_time": 9,
+        "cpu_cores": 1,
+        "ram_gb": 4,
+        "execution_time": 3,
+        "deadline": 28,
+        "priority": 10,
+        "profit": 92,
+        "dependencies": [
+            "best_task_5"
+        ]
+    },
+    {
+        "task_id": "best_task_8",
+        "arrival_time": 10,
+        "cpu_cores": 3,
+        "ram_gb": 3,
+        "execution_time": 3,
+        "deadline": 36,
+        "priority": 9,
+        "profit": 148,
+        "dependencies": [
+            "best_task_6",
+            "best_task_7"
+        ]
+    },
+    {
+        "task_id": "best_task_9",
+        "arrival_time": 6,
+        "cpu_cores": 3,
+        "ram_gb": 4,
+        "execution_time": 4,
+        "deadline": 32,
+        "priority": 10,
+        "profit": 101,
+        "dependencies": [
+            "best_task_4"
+        ]
+    },
+    {
+        "task_id": "best_task_10",
+        "arrival_time": 8,
+        "cpu_cores": 2,
+        "ram_gb": 2,
+        "execution_time": 4,
+        "deadline": 37,
+        "priority": 7,
+        "profit": 120,
+        "dependencies": []
+    },
+    {
+        "task_id": "best_task_11",
+        "arrival_time": 9,
+        "cpu_cores": 1,
+        "ram_gb": 3,
+        "execution_time": 1,
+        "deadline": 22,
+        "priority": 8,
+        "profit": 138,
+        "dependencies": [
+            "best_task_10"
+        ]
+    },
+    {
+        "task_id": "best_task_12",
+        "arrival_time": 10,
+        "cpu_cores": 1,
+        "ram_gb": 1,
+        "execution_time": 1,
+        "deadline": 32,
+        "priority": 8,
+        "profit": 104,
+        "dependencies": [
+            "best_task_11"
+        ]
+    },
+    {
+        "task_id": "best_task_13",
+        "arrival_time": 4,
+        "cpu_cores": 2,
+        "ram_gb": 4,
+        "execution_time": 2,
+        "deadline": 28,
+        "priority": 7,
+        "profit": 135,
+        "dependencies": [
+            "best_task_12",
+            "best_task_9"
+        ]
+    },
+    {
+        "task_id": "best_task_14",
+        "arrival_time": 10,
+        "cpu_cores": 2,
+        "ram_gb": 2,
+        "execution_time": 3,
+        "deadline": 33,
+        "priority": 10,
+        "profit": 138,
+        "dependencies": []
+    },
+    {
+        "task_id": "best_task_15",
+        "arrival_time": 9,
+        "cpu_cores": 2,
+        "ram_gb": 2,
+        "execution_time": 3,
+        "deadline": 33,
+        "priority": 10,
+        "profit": 124,
+        "dependencies": [
+            "best_task_14"
+        ]
+    },
+    {
+        "task_id": "best_task_16",
+        "arrival_time": 8,
+        "cpu_cores": 3,
+        "ram_gb": 3,
+        "execution_time": 4,
+        "deadline": 32,
+        "priority": 9,
+        "profit": 92,
+        "dependencies": [
+            "best_task_15"
+        ]
+    },
+    {
+        "task_id": "best_task_17",
+        "arrival_time": 2,
+        "cpu_cores": 3,
+        "ram_gb": 3,
+        "execution_time": 2,
+        "deadline": 37,
+        "priority": 9,
+        "profit": 146,
+        "dependencies": []
+    },
+    {
+        "task_id": "best_task_18",
+        "arrival_time": 9,
+        "cpu_cores": 2,
+        "ram_gb": 1,
+        "execution_time": 4,
+        "deadline": 35,
+        "priority": 10,
+        "profit": 103,
+        "dependencies": [
+            "best_task_17"
+        ]
+    },
+    {
+        "task_id": "best_task_19",
+        "arrival_time": 8,
+        "cpu_cores": 2,
+        "ram_gb": 4,
+        "execution_time": 4,
+        "deadline": 23,
+        "priority": 10,
+        "profit": 83,
+        "dependencies": [
+            "best_task_18"
+        ]
+    },
+    {
+        "task_id": "best_task_20",
+        "arrival_time": 0,
+        "cpu_cores": 2,
+        "ram_gb": 2,
+        "execution_time": 2,
+        "deadline": 25,
+        "priority": 7,
+        "profit": 126,
+        "dependencies": [
+            "best_task_19"
+        ]
+    },
+    {
+        "task_id": "best_task_21",
+        "arrival_time": 7,
+        "cpu_cores": 2,
+        "ram_gb": 3,
+        "execution_time": 4,
+        "deadline": 29,
+        "priority": 9,
+        "profit": 147,
+        "dependencies": [
+            "best_task_20"
+        ]
+    },
+    {
+        "task_id": "best_task_22",
+        "arrival_time": 10,
+        "cpu_cores": 1,
+        "ram_gb": 1,
+        "execution_time": 4,
+        "deadline": 39,
+        "priority": 7,
+        "profit": 137,
+        "dependencies": []
+    },
+    {
+        "task_id": "best_task_23",
+        "arrival_time": 3,
+        "cpu_cores": 2,
+        "ram_gb": 2,
+        "execution_time": 1,
+        "deadline": 36,
+        "priority": 10,
+        "profit": 139,
+        "dependencies": [
+            "best_task_22"
+        ]
+    },
+    {
+        "task_id": "best_task_24",
+        "arrival_time": 4,
+        "cpu_cores": 1,
+        "ram_gb": 4,
+        "execution_time": 3,
+        "deadline": 29,
+        "priority": 8,
+        "profit": 108,
+        "dependencies": [
+            "best_task_23"
+        ]
+    },
+    {
+        "task_id": "best_task_25",
+        "arrival_time": 7,
+        "cpu_cores": 3,
+        "ram_gb": 3,
+        "execution_time": 4,
+        "deadline": 38,
+        "priority": 10,
+        "profit": 141,
+        "dependencies": [
+            "best_task_24"
+        ]
+    },
+    {
+        "task_id": "best_task_26",
+        "arrival_time": 6,
+        "cpu_cores": 2,
+        "ram_gb": 1,
+        "execution_time": 4,
+        "deadline": 33,
+        "priority": 8,
+        "profit": 147,
+        "dependencies": [
+            "best_task_25",
+            "best_task_21"
+        ]
+    },
+    {
+        "task_id": "best_task_27",
+        "arrival_time": 8,
+        "cpu_cores": 2,
+        "ram_gb": 3,
+        "execution_time": 2,
+        "deadline": 39,
+        "priority": 9,
+        "profit": 150,
+        "dependencies": []
+    },
+    {
+        "task_id": "best_task_28",
+        "arrival_time": 9,
+        "cpu_cores": 1,
+        "ram_gb": 3,
+        "execution_time": 2,
+        "deadline": 30,
+        "priority": 9,
+        "profit": 103,
+        "dependencies": [
+            "best_task_27"
+        ]
+    },
+    {
+        "task_id": "best_task_29",
+        "arrival_time": 10,
+        "cpu_cores": 3,
+        "ram_gb": 4,
+        "execution_time": 2,
+        "deadline": 33,
+        "priority": 8,
+        "profit": 104,
+        "dependencies": [
+            "best_task_27",
+            "best_task_26"
+        ]
+    },
+    {
+        "task_id": "best_task_30",
+        "arrival_time": 1,
+        "cpu_cores": 3,
+        "ram_gb": 1,
+        "execution_time": 2,
+        "deadline": 25,
+        "priority": 8,
+        "profit": 146,
+        "dependencies": []
+    },
+    {
+        "task_id": "best_task_31",
+        "arrival_time": 3,
+        "cpu_cores": 3,
+        "ram_gb": 2,
+        "execution_time": 4,
+        "deadline": 30,
+        "priority": 10,
+        "profit": 93,
+        "dependencies": [
+            "best_task_30"
+        ]
+    },
+    {
+        "task_id": "best_task_32",
+        "arrival_time": 6,
+        "cpu_cores": 1,
+        "ram_gb": 1,
+        "execution_time": 1,
+        "deadline": 32,
+        "priority": 9,
+        "profit": 132,
+        "dependencies": [
+            "best_task_31"
+        ]
+    },
+    {
+        "task_id": "best_task_33",
+        "arrival_time": 7,
+        "cpu_cores": 1,
+        "ram_gb": 4,
+        "execution_time": 4,
+        "deadline": 39,
+        "priority": 10,
+        "profit": 106,
+        "dependencies": [
+            "best_task_32"
+        ]
+    },
+    {
+        "task_id": "best_task_34",
+        "arrival_time": 4,
+        "cpu_cores": 1,
+        "ram_gb": 3,
+        "execution_time": 4,
+        "deadline": 36,
+        "priority": 8,
+        "profit": 99,
+        "dependencies": [
+            "best_task_33"
+        ]
+    },
+    {
+        "task_id": "best_task_35",
+        "arrival_time": 10,
+        "cpu_cores": 2,
+        "ram_gb": 4,
+        "execution_time": 3,
+        "deadline": 38,
+        "priority": 9,
+        "profit": 134,
+        "dependencies": [
+            "best_task_29",
+            "best_task_34"
+        ]
+    },
+    {
+        "task_id": "best_task_36",
+        "arrival_time": 6,
+        "cpu_cores": 1,
+        "ram_gb": 1,
+        "execution_time": 4,
+        "deadline": 26,
+        "priority": 7,
+        "profit": 84,
+        "dependencies": []
+    },
+    {
+        "task_id": "best_task_37",
+        "arrival_time": 3,
+        "cpu_cores": 3,
+        "ram_gb": 2,
+        "execution_time": 1,
+        "deadline": 37,
+        "priority": 10,
+        "profit": 95,
+        "dependencies": [
+            "best_task_36"
+        ]
+    },
+    {
+        "task_id": "best_task_38",
+        "arrival_time": 8,
+        "cpu_cores": 2,
+        "ram_gb": 1,
+        "execution_time": 3,
+        "deadline": 35,
+        "priority": 7,
+        "profit": 140,
+        "dependencies": [
+            "best_task_37"
+        ]
+    },
+    {
+        "task_id": "best_task_39",
+        "arrival_time": 10,
+        "cpu_cores": 1,
+        "ram_gb": 2,
+        "execution_time": 4,
+        "deadline": 38,
+        "priority": 10,
+        "profit": 117,
+        "dependencies": [
+            "best_task_38"
+        ]
+    },
+    {
+        "task_id": "best_task_40",
+        "arrival_time": 0,
+        "cpu_cores": 2,
+        "ram_gb": 1,
+        "execution_time": 4,
+        "deadline": 30,
+        "priority": 8,
+        "profit": 134,
+        "dependencies": [
+            "best_task_35"
+        ]
+    },
+    {
+        "task_id": "best_task_41",
+        "arrival_time": 8,
+        "cpu_cores": 3,
+        "ram_gb": 2,
+        "execution_time": 1,
+        "deadline": 21,
+        "priority": 9,
+        "profit": 148,
+        "dependencies": [
+            "best_task_40"
+        ]
+    },
+    {
+        "task_id": "best_task_42",
+        "arrival_time": 7,
+        "cpu_cores": 2,
+        "ram_gb": 4,
+        "execution_time": 1,
+        "deadline": 40,
+        "priority": 9,
+        "profit": 127,
+        "dependencies": [
+            "best_task_41"
+        ]
+    },
+    {
+        "task_id": "best_task_43",
+        "arrival_time": 5,
+        "cpu_cores": 2,
+        "ram_gb": 3,
+        "execution_time": 4,
+        "deadline": 36,
+        "priority": 7,
+        "profit": 93,
+        "dependencies": [
+            "best_task_42",
+            "best_task_39"
+        ]
+    },
+    {
+        "task_id": "best_task_44",
+        "arrival_time": 10,
+        "cpu_cores": 1,
+        "ram_gb": 2,
+        "execution_time": 1,
+        "deadline": 34,
+        "priority": 8,
+        "profit": 85,
+        "dependencies": []
+    },
+    {
+        "task_id": "best_task_45",
+        "arrival_time": 4,
+        "cpu_cores": 3,
+        "ram_gb": 3,
+        "execution_time": 1,
+        "deadline": 26,
+        "priority": 10,
+        "profit": 142,
+        "dependencies": [
+            "best_task_44"
+        ]
+    },
+    {
+        "task_id": "best_task_46",
+        "arrival_time": 6,
+        "cpu_cores": 3,
+        "ram_gb": 1,
+        "execution_time": 1,
+        "deadline": 33,
+        "priority": 9,
+        "profit": 131,
+        "dependencies": [
+            "best_task_45"
+        ]
+    },
+    {
+        "task_id": "best_task_47",
+        "arrival_time": 2,
+        "cpu_cores": 1,
+        "ram_gb": 1,
+        "execution_time": 2,
+        "deadline": 30,
+        "priority": 7,
+        "profit": 139,
+        "dependencies": [
+            "best_task_46"
+        ]
+    },
+    {
+        "task_id": "best_task_48",
+        "arrival_time": 9,
+        "cpu_cores": 2,
+        "ram_gb": 2,
+        "execution_time": 2,
+        "deadline": 33,
+        "priority": 9,
+        "profit": 92,
+        "dependencies": [
+            "best_task_47",
+            "best_task_43"
+        ]
+    },
+    {
+        "task_id": "best_task_49",
+        "arrival_time": 10,
+        "cpu_cores": 3,
+        "ram_gb": 4,
+        "execution_time": 3,
+        "deadline": 27,
+        "priority": 8,
+        "profit": 145,
+        "dependencies": [
+            "best_task_48"
+        ]
+    },
+    {
+        "task_id": "best_task_50",
+        "arrival_time": 7,
+        "cpu_cores": 2,
+        "ram_gb": 3,
+        "execution_time": 2,
+        "deadline": 30,
+        "priority": 10,
+        "profit": 100,
+        "dependencies": [
+            "best_task_49"
+        ]
+    }
+]
